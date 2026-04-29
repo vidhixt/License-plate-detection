@@ -35,7 +35,7 @@ while video_capture.isOpened():
 
         ocr_results = ocr_reader.readtext(processed_plate)
 
-        #print("Aditya: ", ocr_results[0])
+        #print("vidhi: ", ocr_results[0])
         for (bbox, text, confidence) in ocr_results:
             print("Detected Text:" ,text, "Confidence:", confidence)
 
